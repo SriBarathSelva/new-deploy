@@ -1,4 +1,4 @@
-const clientModel = require('../Models/client');
+const clientModel = require('../models/client');
 const mongoose = require('mongoose');
 
 let client = clientModel;
