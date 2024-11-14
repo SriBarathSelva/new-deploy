@@ -1,4 +1,4 @@
-const partyModel = require('../Models/party');
+const partyModel = require('../models/party');
 const mongoose = require('mongoose');
 
 let party = partyModel;
