@@ -1,4 +1,4 @@
-const configurationModel = require('../Models/configuration');
+const configurationModel = require('../models/configuration');
 const mongoose = require('mongoose');
 
 let configuration = configurationModel;
