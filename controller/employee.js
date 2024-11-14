@@ -1,4 +1,4 @@
-const EmployeeModel = require('../models/Employee');
+const EmployeeModel = require('../models/employee');
 const mongoose = require('mongoose');
 const moment = require('moment');
 
