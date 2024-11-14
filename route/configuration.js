@@ -1,6 +1,6 @@
 const express = require('express');
 const configurationRouter = express.Router();
-const controller = require('../Controller/configuration')
+const controller = require('../controller/configuration')
 
 
 
