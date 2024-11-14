@@ -1,6 +1,6 @@
 const express = require('express');
 const libraryRouter = express.Router();
-const controller = require('../Controller/library')
+const controller = require('../controller/library')
 
 
 
