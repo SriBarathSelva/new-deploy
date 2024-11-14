@@ -1,4 +1,4 @@
-const mdetailsModel = require('../Models/mdetail');
+const mdetailsModel = require('../models/mdetail');
 const mongoose = require('mongoose');
 
 let mdetails = mdetailsModel;
