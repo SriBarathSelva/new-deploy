@@ -22,7 +22,7 @@ module.exports = async (data, mailType) => {
         // Email content
         const context = `<div><h1>Please verify your email by clicking this link</h1>
         <br/>
-        <a href="https://localhost:5173/verify/${verifyToken}">Click this Link</a>
+        <a href="https://new-deploy-clsz.onrender.com/verify/${verifyToken}">Click this Link</a>
         </div>`;
 
         let mailOptions;
@@ -31,7 +31,7 @@ module.exports = async (data, mailType) => {
                 mailOptions = {
                     from: process.env.VERIFY_MAIL,
                     to: data.email,
-                    subject: "Verify your email for Resume Builder Application",
+                    subject: "Verify your email",
                     html: context
                 };
                 break;
