@@ -1,5 +1,5 @@
 
-const demoModel = require('../Models/Demo')
+const demoModel = require('../models/Demo')
 
 
 
