@@ -1,6 +1,6 @@
 const express = require('express');
 const partyRouter = express.Router();
-const controller = require('../Controller/party')
+const controller = require('../controller/party')
 
 
 
