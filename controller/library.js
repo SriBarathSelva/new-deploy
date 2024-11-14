@@ -1,4 +1,4 @@
-const libraryModel = require('../Models/library');
+const libraryModel = require('../models/library');
 const mongoose = require('mongoose');
 
 let library = libraryModel;
